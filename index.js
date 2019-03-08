@@ -397,7 +397,7 @@ SortableFlatList.defaultProps = {
   contentContainerStyle: {},
 }
 
-class RowItem extends React.PureComponent {
+class RowItem extends React.Component {
 
   move = () => {
     const { move, moveEnd, renderItem, item, index } = this.props
